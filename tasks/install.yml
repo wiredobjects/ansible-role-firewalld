@@ -1,0 +1,4 @@
+---
+
+- name: Pkg install firewalld
+  yum: name=firewalld state=latest
