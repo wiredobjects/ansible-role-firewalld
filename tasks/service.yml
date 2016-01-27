@@ -1,0 +1,5 @@
+---
+
+- name: Service enable / start firewalld
+  service: name=firewalld enabled=yes state=started
+  when: firewalld_service_manage
